@@ -1,4 +1,4 @@
-const { fontSize, height } = require('tailwindcss/defaultTheme');
+const { fontSize, height, width } = require('tailwindcss/defaultTheme');
 
 module.exports = {
     purge: [],
@@ -10,6 +10,8 @@ module.exports = {
                 secondary: {
                     100: '#e2e2d5',
                     200: '#888883',
+                    300: '#95D6A4',
+                    400: '#D7E9FF',
                 },
             },
             fontSize: {
@@ -20,7 +22,14 @@ module.exports = {
             },
             height: {
                 small: '200px',
-            }
+            },
+            width: {
+                small: '20%',
+                medium: '60%',
+                large: '80%',
+            },
+
+
         },
     },
     variants: {
